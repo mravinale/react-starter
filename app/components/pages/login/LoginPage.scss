@@ -1,0 +1,14 @@
+.login-page {
+
+  &--form {
+    left: 50%;
+    margin: auto;
+    max-width: 330px;
+    padding: 15px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+}
