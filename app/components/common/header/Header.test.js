@@ -14,6 +14,6 @@ describe("<Header /> component", () => {
     // Assert
     expect(wrapper.find(".navbar")).toHaveLength(1);
     expect(wrapper.find(".container")).toHaveLength(1);
-    expect(wrapper.find("a").text()).toBe("Super Club");
+    expect(wrapper.find("a").text()).toBe("React Starter");
   });
 });

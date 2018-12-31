@@ -63,12 +63,12 @@ class UserForm extends React.PureComponent {
                   feedback={emailFeedback}
                 />
                 <FormInput
-                  inputId="skypeId"
+                  inputId="skype"
                   label="Skype Id"
                   type="text"
                   onChange={onChange}
-                  value={user.skypeId}
-                  name="skypeId"
+                  value={user.skype}
+                  name="skype"
                   placeholder="skype Id"
                 />
                 <FormInput

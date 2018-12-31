@@ -15,7 +15,7 @@ const EMPTY_USER = {
   name: "",
   email: "",
   phone: "",
-  skypeId: ""
+  skype: ""
 };
 
 export class UserPage extends React.Component {
